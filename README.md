@@ -42,18 +42,23 @@ generate a solution that you think is __"better"__.
 
     > Chapter 4 - Thursday: Class Definitions
 
+* [Confident Code](http://www.confreaks.com/videos/614-cascadiaruby2011-confident-code)
+
+    > Suggestions and tips on how to write code that makes a statement,
+    not asking a bunch of questions.
+
 ### Further Exercise
 
 This example provided with this exercise provides a simplistic solution.
 
 * Attempt a solution that limits the use of "Primitives"
 
-    > Primitives for the sake of this problem include: `String`; `FixNum`;  
+    > Primitives for the sake of this problem include: `String`; `FixNum`;
     `Float`; `TrueClass`; `FalseClass`; `NilClass`; and `Symbols`
 
 * Attempt a solution with Test Driven Development
 
-    > Remember the goal is to write a test that fails and then write the 
+    > Remember the goal is to write a test that fails and then write the
     simplest code that passes the test.
 
 * Attempt a solution that limits the use of branching logic

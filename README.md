@@ -8,9 +8,10 @@ design decisions.
 
 ### Exercise
 
-The objective of the exercise is to make the sample code __"better"__. While you
-and your partner are the ultimate arbitrator of "better" there are some core
-tenets that are often supported by a large set of developers:
+The objective of the exercise is to make the sample code __"better"__.
+
+While you and your partner are the ultimate arbitrator of "better" there are
+some core tenets that are often supported by a large set of developers:
 
 #### [The Rules of Simplicity](http://c2.com/cgi/wiki?XpSimplicityRules)
 
@@ -18,6 +19,7 @@ tenets that are often supported by a large set of developers:
 * Clear, expressive, and consistent
 * Duplications no behavior or configuration
 * Minimal Methods, Classes, and Modules
+
 
 #### Goal
 
@@ -30,7 +32,11 @@ generate a solution that you think is __"better"__.
 
 ### Exercise Retrospective
 
-* What, if anything, did you learn today?
+* What did you decided would make the sample code __better__?
+
+* What things were easier to implement?
+
+* What things were harder to implement?
 
 * What, if anything, surprised you today?
 
@@ -51,6 +57,10 @@ generate a solution that you think is __"better"__.
 
 This example provided with this exercise provides a simplistic solution.
 
+* Attempt a solution that employs a Domain Specific Language
+
+    > Define a language for setting up the board and making moves
+
 * Attempt a solution that limits the use of "Primitives"
 
     > Primitives for the sake of this problem include: `String`; `FixNum`;
@@ -68,4 +78,5 @@ This example provided with this exercise provides a simplistic solution.
 
 * Attempt a solution that limits the use of "Primitives" and "Collections"
 
-    > Collections are objects and derivatives like `Array` and `Hash`
+    > Primitives were defined above. Collections are objects and derivatives 
+    like `Array` and `Hash`

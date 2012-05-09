@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Glegoo|Della+Respira|Muli|Oxygen);
+/*font-family: 'Glegoo', serif;
+font-family: 'Della Respira', serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Oxygen', sans-serif;
+*/
+html, body {
+  font-family: 'Glegoo', serif;
+}
+
+.slide { 
+  background-image:url('images/classy_fabric.png'); 
+  color: white;
+  text-shadow: 1px 1px 1px #777;
+}
+
+a:visited {
+  color: blue;
+}
+
+/* Provide a big centered box to highlight the paragraph */
+
+.quote p {
+  margin: 10px 100px auto 100px;
+  
+  padding: 30px;
+  background-image:url('images/cross_scratches.png'); 
+  border-radius :15px;
+
+  font-family: 'Muli', sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+  
+  color: black;  
+}
+
+.bullets p {
+  background: url('images/tag.png') no-repeat;
+  padding-left:60px;
+  margin: 10px 50px;
+  font-family: 'Muli', sans-serif;
+  line-height: 1.5;
+  font-size: 30px;
+  letter-spacing:2px
+}
+
+.points h2 {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.countdown h2 {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 40px;
+  padding: 20px 0px 0px 50px;
+  height: 50px;
+  background: url('images/tag.png') no-repeat;
+} 
+
+.bullets ul li {
+  color: yellow;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 100px;
+  padding: .5em;
+}
+
+/* Ruby Source Code */
+
+.sh_ruby {
+  background-image:url('images/cross_scratches.png'); 
+  border-radius :15px;
+}
+
+.content > pre {
+  padding: 20px;
+  font-size: 200%;
+}
+
+
+/* Button Style */
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:40vpx;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #b23e35;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}.classname:active {
+	position:relative;
+	top:1px;
+}

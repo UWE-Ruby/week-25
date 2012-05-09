@@ -121,16 +121,3 @@ class Battleship
   end
   
 end
-
-b = Battleship.new
-b.add_player 'frank'
-b.add_player 'ivan'
-b.place_ship 'frank', :tugboat, :horizontal, 1, 1
-b.place_ship 'ivan', :carrier, :vertical, 1, 1
-
-b.shoot 'frank', 1, 1
-b.add_player 'brandon'
-b.place_ship 'brandon', :destroyer, :horizonal, 1, 3
-b.shoot 'frank', 1, 1
-b.shoot 'frank', 2, 1
-b.shoot 'frank', 2, 1
